@@ -1,5 +1,9 @@
 # Autonomous AI Risks taxonomy
 
+## Change log
+
+Record repo changes in `LOG.md`. Each entry starts with a local timestamp, `YYYY-MM-DD HH:MM` (UTC+2). Append an entry when files are added or changed. Do not record those changes in this file.
+
 PhD coding project on autonomous-AI risks. The source table records which risks each publication mentions. The end product is a webpage whose graph has risks as nodes and publications as edges. Search highlights either one risk or one publication.
 
 ## Source file
