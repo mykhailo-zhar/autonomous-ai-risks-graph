@@ -64,3 +64,19 @@ Added count fields and regenerated the three JSON files. Risks have `number_of_a
 ## 2026-11-24 15:28
 
 Evidence ids now have `number_of_associated_risks`, the count of distinct risk ids on that passage. `07.03.00` has 4. `51.08.00` has 0. The evidence record is `ev_id`, `publication_id`, `number_of_associated_risks`, and `risks`. Regenerated `output/ev_ids.json`.
+
+## 2026-11-24 15:39
+
+Added `src/index.html`. It draws each risk as a node sized by `number_of_associated_records`, and each evidence id that names two or more risks as pair-edges labeled with that `ev_id`. Filters select publications and evidence ids. With neither set, the page shows 202 risks and 458 edges. Serve the repo and open `/src/`; a `file://` open cannot fetch the JSON.
+
+## 2026-11-24 15:40
+
+Moved the page style to `src/style.css` and the graph script to `src/graph.js`. `src/index.html` links those files.
+
+## 2026-11-24 15:43
+
+Each filter list starts with All. Choosing it selects every publication, or every evidence id currently listed, and the graph shows that full set.
+
+## 2026-11-24 15:46
+
+Added a Hide evidence ids button. It removes the evidence-id labels from the edges and leaves the edges in place. The button then reads Show evidence ids. Hovering an edge still shows its id.
