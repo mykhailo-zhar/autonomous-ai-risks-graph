@@ -52,3 +52,15 @@ Created this log. Restored `AGENTS.md` to the project brief and stopped recordin
 ## 2026-11-24 14:52
 
 Dated the entries above. `AGENTS.md` now says each repo change is appended here with a local timestamp, and is not recorded in the brief.
+
+## 2026-11-24 15:14
+
+Added `build_json.ipynb`. It reads `risk/mentions.csv` and `risk/ev_titles.csv` and writes `output/risks.json` (202 risks), `output/publications.json` (30 publications), and `output/ev_ids.json` (146 evidence ids). Ids stay in first-seen order. `number_of_associated_records` counts mention rows. `number_of_associated_risks` counts distinct risk ids. Risk `0` is included. Publication `51` has evidence id `51.08.00` and no risks.
+
+## 2026-11-24 15:26
+
+Added count fields and regenerated the three JSON files. Risks have `number_of_associated_publications` and `number_of_associated_ev_ids`. Publications have `number_of_associated_ev_ids`. Evidence ids have `number_of_associated_publications` (one each, since an evidence id belongs to one publication).
+
+## 2026-11-24 15:28
+
+Evidence ids now have `number_of_associated_risks`, the count of distinct risk ids on that passage. `07.03.00` has 4. `51.08.00` has 0. The evidence record is `ev_id`, `publication_id`, `number_of_associated_risks`, and `risks`. Regenerated `output/ev_ids.json`.

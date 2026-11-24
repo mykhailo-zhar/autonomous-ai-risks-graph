@@ -1,0 +1,1374 @@
+[
+  {
+    "ev_id": "06.08.00",
+    "publication_id": 6,
+    "number_of_associated_risks": 1,
+    "risks": [
+      1
+    ]
+  },
+  {
+    "ev_id": "06.10.00",
+    "publication_id": 6,
+    "number_of_associated_risks": 1,
+    "risks": [
+      2
+    ]
+  },
+  {
+    "ev_id": "07.03.00",
+    "publication_id": 7,
+    "number_of_associated_risks": 4,
+    "risks": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "ev_id": "09.01.01",
+    "publication_id": 9,
+    "number_of_associated_risks": 2,
+    "risks": [
+      7,
+      8
+    ]
+  },
+  {
+    "ev_id": "09.02.07",
+    "publication_id": 9,
+    "number_of_associated_risks": 2,
+    "risks": [
+      9,
+      10
+    ]
+  },
+  {
+    "ev_id": "09.03.01",
+    "publication_id": 9,
+    "number_of_associated_risks": 3,
+    "risks": [
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "ev_id": "09.04.02",
+    "publication_id": 9,
+    "number_of_associated_risks": 4,
+    "risks": [
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "ev_id": "09.06.02",
+    "publication_id": 9,
+    "number_of_associated_risks": 1,
+    "risks": [
+      18
+    ]
+  },
+  {
+    "ev_id": "16.05.04",
+    "publication_id": 16,
+    "number_of_associated_risks": 2,
+    "risks": [
+      19,
+      20
+    ]
+  },
+  {
+    "ev_id": "18.05.00",
+    "publication_id": 18,
+    "number_of_associated_risks": 3,
+    "risks": [
+      21,
+      22,
+      15
+    ]
+  },
+  {
+    "ev_id": "18.05.02",
+    "publication_id": 18,
+    "number_of_associated_risks": 3,
+    "risks": [
+      23,
+      24,
+      15
+    ]
+  },
+  {
+    "ev_id": "22.01.01",
+    "publication_id": 22,
+    "number_of_associated_risks": 1,
+    "risks": [
+      25
+    ]
+  },
+  {
+    "ev_id": "22.04.00",
+    "publication_id": 22,
+    "number_of_associated_risks": 1,
+    "risks": [
+      0
+    ]
+  },
+  {
+    "ev_id": "22.04.01",
+    "publication_id": 22,
+    "number_of_associated_risks": 2,
+    "risks": [
+      26,
+      27
+    ]
+  },
+  {
+    "ev_id": "22.04.02",
+    "publication_id": 22,
+    "number_of_associated_risks": 2,
+    "risks": [
+      28,
+      29
+    ]
+  },
+  {
+    "ev_id": "22.04.03",
+    "publication_id": 22,
+    "number_of_associated_risks": 2,
+    "risks": [
+      3,
+      30
+    ]
+  },
+  {
+    "ev_id": "22.04.04",
+    "publication_id": 22,
+    "number_of_associated_risks": 3,
+    "risks": [
+      20,
+      31,
+      32
+    ]
+  },
+  {
+    "ev_id": "24.04.05",
+    "publication_id": 24,
+    "number_of_associated_risks": 6,
+    "risks": [
+      15,
+      21,
+      10,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "ev_id": "24.06.03",
+    "publication_id": 24,
+    "number_of_associated_risks": 2,
+    "risks": [
+      15,
+      36
+    ]
+  },
+  {
+    "ev_id": "25.01.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 5,
+    "risks": [
+      37,
+      38,
+      39,
+      32,
+      40
+    ]
+  },
+  {
+    "ev_id": "25.02.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 4,
+    "risks": [
+      20,
+      31,
+      41,
+      42
+    ]
+  },
+  {
+    "ev_id": "25.03.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 3,
+    "risks": [
+      23,
+      24,
+      15
+    ]
+  },
+  {
+    "ev_id": "25.04.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 2,
+    "risks": [
+      43,
+      200
+    ]
+  },
+  {
+    "ev_id": "25.05.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 3,
+    "risks": [
+      25,
+      45,
+      46
+    ]
+  },
+  {
+    "ev_id": "25.06.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 1,
+    "risks": [
+      47
+    ]
+  },
+  {
+    "ev_id": "25.07.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 3,
+    "risks": [
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "ev_id": "25.08.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 3,
+    "risks": [
+      51,
+      32,
+      52
+    ]
+  },
+  {
+    "ev_id": "25.09.00",
+    "publication_id": 25,
+    "number_of_associated_risks": 7,
+    "risks": [
+      53,
+      32,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "ev_id": "29.02.01",
+    "publication_id": 29,
+    "number_of_associated_risks": 4,
+    "risks": [
+      10,
+      44,
+      59,
+      60
+    ]
+  },
+  {
+    "ev_id": "29.02.03",
+    "publication_id": 29,
+    "number_of_associated_risks": 2,
+    "risks": [
+      2,
+      7
+    ]
+  },
+  {
+    "ev_id": "30.01.05",
+    "publication_id": 30,
+    "number_of_associated_risks": 1,
+    "risks": [
+      33
+    ]
+  },
+  {
+    "ev_id": "30.02.01",
+    "publication_id": 30,
+    "number_of_associated_risks": 1,
+    "risks": [
+      61
+    ]
+  },
+  {
+    "ev_id": "30.02.02",
+    "publication_id": 30,
+    "number_of_associated_risks": 2,
+    "risks": [
+      62,
+      63
+    ]
+  },
+  {
+    "ev_id": "30.02.03",
+    "publication_id": 30,
+    "number_of_associated_risks": 1,
+    "risks": [
+      64
+    ]
+  },
+  {
+    "ev_id": "30.02.04",
+    "publication_id": 30,
+    "number_of_associated_risks": 1,
+    "risks": [
+      65
+    ]
+  },
+  {
+    "ev_id": "30.02.06",
+    "publication_id": 30,
+    "number_of_associated_risks": 1,
+    "risks": [
+      66
+    ]
+  },
+  {
+    "ev_id": "34.01.01",
+    "publication_id": 34,
+    "number_of_associated_risks": 2,
+    "risks": [
+      27,
+      67
+    ]
+  },
+  {
+    "ev_id": "34.01.02",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      68
+    ]
+  },
+  {
+    "ev_id": "34.01.03",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      69
+    ]
+  },
+  {
+    "ev_id": "34.02.01",
+    "publication_id": 34,
+    "number_of_associated_risks": 5,
+    "risks": [
+      67,
+      51,
+      20,
+      70,
+      71
+    ]
+  },
+  {
+    "ev_id": "34.02.03",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      72
+    ]
+  },
+  {
+    "ev_id": "34.02.04",
+    "publication_id": 34,
+    "number_of_associated_risks": 5,
+    "risks": [
+      35,
+      20,
+      58,
+      73,
+      74
+    ]
+  },
+  {
+    "ev_id": "34.03.00",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      0
+    ]
+  },
+  {
+    "ev_id": "34.03.01",
+    "publication_id": 34,
+    "number_of_associated_risks": 3,
+    "risks": [
+      75,
+      76,
+      3
+    ]
+  },
+  {
+    "ev_id": "34.03.03",
+    "publication_id": 34,
+    "number_of_associated_risks": 4,
+    "risks": [
+      31,
+      35,
+      15,
+      23
+    ]
+  },
+  {
+    "ev_id": "34.03.04",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      77
+    ]
+  },
+  {
+    "ev_id": "34.03.05",
+    "publication_id": 34,
+    "number_of_associated_risks": 1,
+    "risks": [
+      78
+    ]
+  },
+  {
+    "ev_id": "35.07.00",
+    "publication_id": 35,
+    "number_of_associated_risks": 4,
+    "risks": [
+      20,
+      31,
+      54,
+      32
+    ]
+  },
+  {
+    "ev_id": "35.08.00",
+    "publication_id": 35,
+    "number_of_associated_risks": 1,
+    "risks": [
+      3
+    ]
+  },
+  {
+    "ev_id": "40.07.00",
+    "publication_id": 40,
+    "number_of_associated_risks": 1,
+    "risks": [
+      79
+    ]
+  },
+  {
+    "ev_id": "41.01.00",
+    "publication_id": 41,
+    "number_of_associated_risks": 2,
+    "risks": [
+      11,
+      80
+    ]
+  },
+  {
+    "ev_id": "41.04.00",
+    "publication_id": 41,
+    "number_of_associated_risks": 3,
+    "risks": [
+      15,
+      81,
+      201
+    ]
+  },
+  {
+    "ev_id": "41.04.02",
+    "publication_id": 41,
+    "number_of_associated_risks": 2,
+    "risks": [
+      15,
+      81
+    ]
+  },
+  {
+    "ev_id": "42.02.00",
+    "publication_id": 42,
+    "number_of_associated_risks": 1,
+    "risks": [
+      82
+    ]
+  },
+  {
+    "ev_id": "42.17.00",
+    "publication_id": 42,
+    "number_of_associated_risks": 1,
+    "risks": [
+      83
+    ]
+  },
+  {
+    "ev_id": "43.02.01",
+    "publication_id": 43,
+    "number_of_associated_risks": 4,
+    "risks": [
+      37,
+      38,
+      39,
+      54
+    ]
+  },
+  {
+    "ev_id": "43.02.02",
+    "publication_id": 43,
+    "number_of_associated_risks": 2,
+    "risks": [
+      45,
+      84
+    ]
+  },
+  {
+    "ev_id": "43.02.03",
+    "publication_id": 43,
+    "number_of_associated_risks": 2,
+    "risks": [
+      85,
+      51
+    ]
+  },
+  {
+    "ev_id": "43.02.04",
+    "publication_id": 43,
+    "number_of_associated_risks": 5,
+    "risks": [
+      54,
+      53,
+      55,
+      57,
+      86
+    ]
+  },
+  {
+    "ev_id": "43.02.05",
+    "publication_id": 43,
+    "number_of_associated_risks": 2,
+    "risks": [
+      23,
+      15
+    ]
+  },
+  {
+    "ev_id": "43.02.07",
+    "publication_id": 43,
+    "number_of_associated_risks": 1,
+    "risks": [
+      20
+    ]
+  },
+  {
+    "ev_id": "43.02.09",
+    "publication_id": 43,
+    "number_of_associated_risks": 1,
+    "risks": [
+      47
+    ]
+  },
+  {
+    "ev_id": "43.02.10",
+    "publication_id": 43,
+    "number_of_associated_risks": 2,
+    "risks": [
+      48,
+      87
+    ]
+  },
+  {
+    "ev_id": "43.02.11",
+    "publication_id": 43,
+    "number_of_associated_risks": 5,
+    "risks": [
+      88,
+      3,
+      89,
+      111,
+      91
+    ]
+  },
+  {
+    "ev_id": "45.02.13",
+    "publication_id": 45,
+    "number_of_associated_risks": 5,
+    "risks": [
+      75,
+      3,
+      85,
+      92,
+      93
+    ]
+  },
+  {
+    "ev_id": "46.03.02",
+    "publication_id": 46,
+    "number_of_associated_risks": 1,
+    "risks": [
+      0
+    ]
+  },
+  {
+    "ev_id": "47.02.14",
+    "publication_id": 47,
+    "number_of_associated_risks": 3,
+    "risks": [
+      94,
+      95,
+      96
+    ]
+  },
+  {
+    "ev_id": "47.02.15",
+    "publication_id": 47,
+    "number_of_associated_risks": 5,
+    "risks": [
+      97,
+      20,
+      3,
+      92,
+      98
+    ]
+  },
+  {
+    "ev_id": "51.08.00",
+    "publication_id": 51,
+    "number_of_associated_risks": 0,
+    "risks": []
+  },
+  {
+    "ev_id": "53.01.02",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      101
+    ]
+  },
+  {
+    "ev_id": "53.01.03",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      197
+    ]
+  },
+  {
+    "ev_id": "53.01.04",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      198
+    ]
+  },
+  {
+    "ev_id": "53.02.03",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      3
+    ]
+  },
+  {
+    "ev_id": "53.02.04",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      99
+    ]
+  },
+  {
+    "ev_id": "53.02.05",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      92
+    ]
+  },
+  {
+    "ev_id": "53.02.06",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      100
+    ]
+  },
+  {
+    "ev_id": "53.02.07",
+    "publication_id": 53,
+    "number_of_associated_risks": 1,
+    "risks": [
+      20
+    ]
+  },
+  {
+    "ev_id": "53.03.01",
+    "publication_id": 53,
+    "number_of_associated_risks": 2,
+    "risks": [
+      202,
+      3
+    ]
+  },
+  {
+    "ev_id": "53.03.03",
+    "publication_id": 53,
+    "number_of_associated_risks": 2,
+    "risks": [
+      199,
+      114
+    ]
+  },
+  {
+    "ev_id": "54.01.05",
+    "publication_id": 54,
+    "number_of_associated_risks": 3,
+    "risks": [
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "ev_id": "54.03.01",
+    "publication_id": 54,
+    "number_of_associated_risks": 1,
+    "risks": [
+      101
+    ]
+  },
+  {
+    "ev_id": "54.03.02",
+    "publication_id": 54,
+    "number_of_associated_risks": 6,
+    "risks": [
+      3,
+      75,
+      102,
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "ev_id": "54.03.03",
+    "publication_id": 54,
+    "number_of_associated_risks": 1,
+    "risks": [
+      31
+    ]
+  },
+  {
+    "ev_id": "55.05.01",
+    "publication_id": 55,
+    "number_of_associated_risks": 2,
+    "risks": [
+      4,
+      106
+    ]
+  },
+  {
+    "ev_id": "55.05.02",
+    "publication_id": 55,
+    "number_of_associated_risks": 2,
+    "risks": [
+      4,
+      107
+    ]
+  },
+  {
+    "ev_id": "56.16.00",
+    "publication_id": 56,
+    "number_of_associated_risks": 4,
+    "risks": [
+      108,
+      109,
+      110,
+      90
+    ]
+  },
+  {
+    "ev_id": "56.19.02",
+    "publication_id": 56,
+    "number_of_associated_risks": 4,
+    "risks": [
+      90,
+      32,
+      92,
+      55
+    ]
+  },
+  {
+    "ev_id": "56.19.03",
+    "publication_id": 56,
+    "number_of_associated_risks": 1,
+    "risks": [
+      112
+    ]
+  },
+  {
+    "ev_id": "56.19.04",
+    "publication_id": 56,
+    "number_of_associated_risks": 1,
+    "risks": [
+      51
+    ]
+  },
+  {
+    "ev_id": "56.19.05",
+    "publication_id": 56,
+    "number_of_associated_risks": 1,
+    "risks": [
+      113
+    ]
+  },
+  {
+    "ev_id": "61.01.01",
+    "publication_id": 61,
+    "number_of_associated_risks": 3,
+    "risks": [
+      114,
+      26,
+      116
+    ]
+  },
+  {
+    "ev_id": "61.02.01",
+    "publication_id": 61,
+    "number_of_associated_risks": 3,
+    "risks": [
+      117,
+      118,
+      119
+    ]
+  },
+  {
+    "ev_id": "61.02.04",
+    "publication_id": 61,
+    "number_of_associated_risks": 1,
+    "risks": [
+      120
+    ]
+  },
+  {
+    "ev_id": "61.02.10",
+    "publication_id": 61,
+    "number_of_associated_risks": 2,
+    "risks": [
+      121,
+      122
+    ]
+  },
+  {
+    "ev_id": "61.02.18",
+    "publication_id": 61,
+    "number_of_associated_risks": 1,
+    "risks": [
+      31
+    ]
+  },
+  {
+    "ev_id": "61.02.21",
+    "publication_id": 61,
+    "number_of_associated_risks": 3,
+    "risks": [
+      123,
+      124,
+      125
+    ]
+  },
+  {
+    "ev_id": "61.02.30",
+    "publication_id": 61,
+    "number_of_associated_risks": 1,
+    "risks": [
+      106
+    ]
+  },
+  {
+    "ev_id": "61.02.36",
+    "publication_id": 61,
+    "number_of_associated_risks": 2,
+    "risks": [
+      3,
+      126
+    ]
+  },
+  {
+    "ev_id": "61.02.39",
+    "publication_id": 61,
+    "number_of_associated_risks": 1,
+    "risks": [
+      127
+    ]
+  },
+  {
+    "ev_id": "61.02.43",
+    "publication_id": 61,
+    "number_of_associated_risks": 1,
+    "risks": [
+      128
+    ]
+  },
+  {
+    "ev_id": "62.16.04",
+    "publication_id": 62,
+    "number_of_associated_risks": 2,
+    "risks": [
+      129,
+      130
+    ]
+  },
+  {
+    "ev_id": "62.18.06",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      131
+    ]
+  },
+  {
+    "ev_id": "62.22.01",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      101
+    ]
+  },
+  {
+    "ev_id": "62.22.02",
+    "publication_id": 62,
+    "number_of_associated_risks": 2,
+    "risks": [
+      69,
+      132
+    ]
+  },
+  {
+    "ev_id": "62.22.03",
+    "publication_id": 62,
+    "number_of_associated_risks": 4,
+    "risks": [
+      101,
+      69,
+      33,
+      133
+    ]
+  },
+  {
+    "ev_id": "62.22.04",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      68
+    ]
+  },
+  {
+    "ev_id": "62.23.01",
+    "publication_id": 62,
+    "number_of_associated_risks": 2,
+    "risks": [
+      20,
+      81
+    ]
+  },
+  {
+    "ev_id": "62.23.02",
+    "publication_id": 62,
+    "number_of_associated_risks": 3,
+    "risks": [
+      20,
+      134,
+      135
+    ]
+  },
+  {
+    "ev_id": "62.23.04",
+    "publication_id": 62,
+    "number_of_associated_risks": 2,
+    "risks": [
+      20,
+      136
+    ]
+  },
+  {
+    "ev_id": "62.24.02",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      137
+    ]
+  },
+  {
+    "ev_id": "62.24.02a",
+    "publication_id": 62,
+    "number_of_associated_risks": 3,
+    "risks": [
+      137,
+      20,
+      14
+    ]
+  },
+  {
+    "ev_id": "62.25.00",
+    "publication_id": 62,
+    "number_of_associated_risks": 8,
+    "risks": [
+      58,
+      53,
+      98,
+      75,
+      38,
+      39,
+      37,
+      23
+    ]
+  },
+  {
+    "ev_id": "62.26.00",
+    "publication_id": 62,
+    "number_of_associated_risks": 2,
+    "risks": [
+      35,
+      23
+    ]
+  },
+  {
+    "ev_id": "62.28.02",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      138
+    ]
+  },
+  {
+    "ev_id": "62.34.02",
+    "publication_id": 62,
+    "number_of_associated_risks": 1,
+    "risks": [
+      33
+    ]
+  },
+  {
+    "ev_id": "63.02.01",
+    "publication_id": 63,
+    "number_of_associated_risks": 2,
+    "risks": [
+      139,
+      140
+    ]
+  },
+  {
+    "ev_id": "63.03.00",
+    "publication_id": 63,
+    "number_of_associated_risks": 1,
+    "risks": [
+      141
+    ]
+  },
+  {
+    "ev_id": "63.03.01",
+    "publication_id": 63,
+    "number_of_associated_risks": 1,
+    "risks": [
+      91
+    ]
+  },
+  {
+    "ev_id": "63.03.02",
+    "publication_id": 63,
+    "number_of_associated_risks": 3,
+    "risks": [
+      131,
+      142,
+      143
+    ]
+  },
+  {
+    "ev_id": "63.04.03",
+    "publication_id": 63,
+    "number_of_associated_risks": 3,
+    "risks": [
+      20,
+      144,
+      145
+    ]
+  },
+  {
+    "ev_id": "63.06.03",
+    "publication_id": 63,
+    "number_of_associated_risks": 3,
+    "risks": [
+      146,
+      147,
+      148
+    ]
+  },
+  {
+    "ev_id": "63.08.02",
+    "publication_id": 63,
+    "number_of_associated_risks": 3,
+    "risks": [
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "ev_id": "63.10.02",
+    "publication_id": 63,
+    "number_of_associated_risks": 1,
+    "risks": [
+      152
+    ]
+  },
+  {
+    "ev_id": "63.10.03",
+    "publication_id": 63,
+    "number_of_associated_risks": 1,
+    "risks": [
+      153
+    ]
+  },
+  {
+    "ev_id": "63.10.06",
+    "publication_id": 63,
+    "number_of_associated_risks": 3,
+    "risks": [
+      131,
+      154,
+      155
+    ]
+  },
+  {
+    "ev_id": "67.04.04",
+    "publication_id": 67,
+    "number_of_associated_risks": 7,
+    "risks": [
+      15,
+      39,
+      37,
+      156,
+      157,
+      158,
+      159
+    ]
+  },
+  {
+    "ev_id": "72.02.02",
+    "publication_id": 72,
+    "number_of_associated_risks": 8,
+    "risks": [
+      111,
+      75,
+      52,
+      92,
+      160,
+      3,
+      126,
+      161
+    ]
+  },
+  {
+    "ev_id": "72.05.01",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      162
+    ]
+  },
+  {
+    "ev_id": "72.05.02",
+    "publication_id": 72,
+    "number_of_associated_risks": 5,
+    "risks": [
+      98,
+      92,
+      75,
+      163,
+      164
+    ]
+  },
+  {
+    "ev_id": "72.05.04",
+    "publication_id": 72,
+    "number_of_associated_risks": 6,
+    "risks": [
+      165,
+      166,
+      167,
+      38,
+      168,
+      54
+    ]
+  },
+  {
+    "ev_id": "72.05.06",
+    "publication_id": 72,
+    "number_of_associated_risks": 2,
+    "risks": [
+      169,
+      170
+    ]
+  },
+  {
+    "ev_id": "72.05.07",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      20
+    ]
+  },
+  {
+    "ev_id": "72.05.08",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      131
+    ]
+  },
+  {
+    "ev_id": "72.05.09",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      23
+    ]
+  },
+  {
+    "ev_id": "72.05.10",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      37
+    ]
+  },
+  {
+    "ev_id": "72.05.11",
+    "publication_id": 72,
+    "number_of_associated_risks": 2,
+    "risks": [
+      171,
+      46
+    ]
+  },
+  {
+    "ev_id": "72.05.12",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      172
+    ]
+  },
+  {
+    "ev_id": "72.05.13",
+    "publication_id": 72,
+    "number_of_associated_risks": 1,
+    "risks": [
+      173
+    ]
+  },
+  {
+    "ev_id": "72.06.01",
+    "publication_id": 72,
+    "number_of_associated_risks": 3,
+    "risks": [
+      20,
+      174,
+      175
+    ]
+  },
+  {
+    "ev_id": "72.06.02",
+    "publication_id": 72,
+    "number_of_associated_risks": 5,
+    "risks": [
+      103,
+      111,
+      176,
+      177,
+      178
+    ]
+  },
+  {
+    "ev_id": "72.06.03",
+    "publication_id": 72,
+    "number_of_associated_risks": 8,
+    "risks": [
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ]
+  },
+  {
+    "ev_id": "72.06.04",
+    "publication_id": 72,
+    "number_of_associated_risks": 6,
+    "risks": [
+      75,
+      187,
+      188,
+      189,
+      190,
+      191
+    ]
+  },
+  {
+    "ev_id": "72.06.06",
+    "publication_id": 72,
+    "number_of_associated_risks": 5,
+    "risks": [
+      54,
+      52,
+      192,
+      31,
+      38
+    ]
+  },
+  {
+    "ev_id": "72.06.07",
+    "publication_id": 72,
+    "number_of_associated_risks": 2,
+    "risks": [
+      193,
+      194
+    ]
+  },
+  {
+    "ev_id": "73.01.03",
+    "publication_id": 73,
+    "number_of_associated_risks": 5,
+    "risks": [
+      195,
+      20,
+      103,
+      3,
+      196
+    ]
+  },
+  {
+    "ev_id": "73.02.03",
+    "publication_id": 73,
+    "number_of_associated_risks": 2,
+    "risks": [
+      91,
+      131
+    ]
+  }
+]
