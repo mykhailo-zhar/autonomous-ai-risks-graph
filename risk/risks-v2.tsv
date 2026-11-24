@@ -1,0 +1,352 @@
+RISK_ID	Assotiated Ev_ID	Risk	Comment
+1	06.08.00	Unintended consequences	
+2	06.10.00	Lethal Autonomous Weapons (LAW)	
+3	07.03.00	Power seeking	
+4	07.03.00	Goal misalignment	
+5	07.03.00	Multiple risks in connected agent systems	
+6	07.03.00	Risk generation	
+7	09.01.01	Ethical decisions regarding termination of human life 	
+8	09.01.01	Other non-trivial moral or ethical judgements concerning people	
+9	09.02.07	Influence on society	
+10	09.02.07	Manipulation (society)	
+11	09.03.01	Outcompete humans in terms of labor	
+12	09.03.01	Redundancies of human labor force	
+13	09.03.01	Extinction of a human labor force	
+14	09.04.02	Manipulation (systems)	
+15	09.04.02	Manipulation (individuals)	
+16	09.04.02	Manipulation (legal systems)	
+17	09.04.02	Provide advantage to itself 	
+18	09.06.02	Unethical decision making	
+19	16.05.04	Exploitation of cognitive biases	
+20	16.05.04	Deception	
+21	18.05.00	Compromise of human agency	
+22	18.05.00	Human control circumvention	
+15	18.05.00	Manipulation (individuals)	
+23	18.05.02	Persuasion	
+24	18.05.02	Coercion	
+15	18.05.02	Manipulation (individuals)	
+25	22.01.01	Bioweapon engineering	
+26	22.04.01	Loss of control	
+0	22.04.00	NOT CODED	
+27	22.04.01	Proxy gaming	
+28	22.04.02	Goal Drift	
+29	22.04.02	Goal Drift (Intrinsification)	
+3	22.04.03	Power seeking	
+30	22.04.03	Loss of control (Power seeking)	
+20	22.04.04	Deception	
+31	22.04.04	Alignment faking	
+32	22.04.04	Oversight evasion	
+15	24.04.05	Manipulation (individuals)	
+21	24.04.05	Compromise of human agency	
+10	24.04.05	Manipulation (society)	
+33	24.04.05	Sycophany	
+34	24.04.05	Democracy subversion	
+35	24.04.05	Disinformation	
+15	24.06.03	Manipulation (individuals)	
+36	24.06.03	Emotional dependence	
+37	25.01.00	Cyberoffensive capabilities	
+38	25.01.00	Detect vulnerabilities	
+39	25.01.00	Exploit vulnerabilities	
+32	25.01.00	Oversight evasion	
+40	25.01.00	Deploy vulnerabilities in the code they write	
+20	25.02.00	Deception	
+31	25.02.00	Alignment faking	
+41	25.02.00	Impersonate human	
+42	25.02.00	Predict effect of a lie	
+23	25.03.00	Persuasion	
+24	25.03.00	Coercion	
+15	25.03.00	Manipulation (individuals)	
+43	25.04.00	Excercise political influence	
+200	25.04.00	Modelling (society)	
+25	25.05.00	Bioweapon engineering	
+45	25.05.00	Novel weapon engineering / development	
+46	25.05.00	Weapons acquisition  	
+47	25.06.00	Long horizon planning	
+48	25.07.00	Development of AI systems from scratch	
+49	25.07.00	Improve other models on tasks relevant to extreme risks	
+50	25.07.00	Improve productivity of actors building dual use AI capabilities	
+51	25.08.00	Situational awareness	
+32	25.08.00	Oversight evasion	
+52	25.08.00	Oversight evasion (human)	
+53	25.09.00	Self-exfiltration (weights)	
+32	25.09.00	Oversight evasion	
+54	25.09.00	Oversight evasion (systems)	
+55	25.09.00	Self-exfiltration (code)	
+56	25.09.00	Independently generate resources for their autonomous operation	
+57	25.09.00	Operate other systems (AI)	
+58	25.09.00	Self-proliferation	
+10	29.02.01	Manipulation (society)	
+44	29.02.01	Filter bubbles fostering	
+59	29.02.01	Advancing political agendas	
+60	29.02.01	Advancing commercial agendas	
+2	29.02.03	Lethal Autonomous Weapons (LAW)	
+7	29.02.03	Ethical decisions regarding termination of human life 	
+33	30.01.05	Sycophany	
+61	30.02.01	Provision of violent content 	
+62	30.02.02	Provision of unlawful content	
+63	30.02.02	Overreliance on the AI system	Primary concern of the risk is about users developing habits regarding AI model. Therefore will be filtered
+64	30.02.03	Provision of unlawful content to children	
+65	30.02.04	Generation of explicit content	
+66	30.02.06	Privacy violation	Primarily described as inherent property of AI model that contains private information. Primary concern is about malicious use. Therefore will be filtered
+27	34.01.01	Proxy gaming	
+67	34.01.01	Reward hacking	
+68	34.01.02	Goal misgeneralization	As a 34.01.01 provides a reason of misalignment
+69	34.01.03	Reward tampering	
+67	34.02.01	Reward hacking	
+51	34.02.01	Situational awareness	
+20	34.02.01	Deception	
+70	34.02.01	Generic manipulation 	
+71	34.02.01	Propensity to chace instrumental subgoals	
+72	34.02.03	Mesa optimization	Essentially, the AI training process itself may create a misaligned model
+35	34.02.04	Disinformation	
+20	34.02.04	Deception	
+58	34.02.04	Self-proliferation	
+73	34.02.04	Network security disruption	
+74	34.02.04	Increased access to internet resources	
+0	34.03.00	NOT CODED	
+75	34.03.01	Resource acquisition	
+76	34.03.01	Seeking control over humans 	
+3	34.03.01	Power seeking	
+31	34.03.03	Alignment faking	Here it is called deceptive alignment
+35	34.03.03	Disinformation	
+15	34.03.03	Manipulation (individuals)	
+23	34.03.03	Persuasion	
+77	34.03.04	Limitations in model's cooperative capabilities	Specifically limitations in social and prisoner's dilemmas
+78	34.03.05	Breach of ethics	
+20	35.07.00	Deception	
+31	35.07.00	Alignment faking	
+54	35.07.00	Oversight evasion (systems)	
+32	35.07.00	Oversight evasion	
+3	35.08.00	Power seeking	
+79	40.07.00	Unpredictability of artificial superintelligence	
+11	41.01.00	Outcompete humans in terms of labor	It is highly likely that the text mentions the general direction of the job market rather than an intentional AI risk 
+80	41.01.00	Bring unemployment	
+15	41.04.00	Manipulation (individuals)	Children and elderly
+81	41.04.00	Misjudgment	Acting on the false information
+201	41.04.00	Privacy concerns upon AI use	
+15	41.04.02	Manipulation (individuals)	Duplicate of 41.04.00 
+81	41.04.02	Misjudgment	
+82	42.02.00	Manipulation (AI systems)	
+83	42.17.00	Generation of ethical guidelines	Description is vague. 
+37	43.02.01	Cyberoffensive capabilities	
+38	43.02.01	Detect vulnerabilities	
+39	43.02.01	Exploit vulnerabilities	
+54	43.02.01	Oversight evasion (systems)	
+45	43.02.02	Novel weapon engineering / development	
+84	43.02.02	Gain unauthorized access to current weapon systems	The definition is awfully similar to cyberoffensive capabilities
+85	43.02.03	Self-awareness	
+51	43.02.03	Situational awareness	
+54	43.02.04	Oversight evasion (systems)	The entry names it self-proliferation and autonomous AI replication
+53	43.02.04	Self-exfiltration (weights)	
+55	43.02.04	Self-exfiltration (code)	
+57	43.02.04	Operate other systems (AI)	
+86	43.02.04	Breach of operational confines	
+23	43.02.05	Persuasion	
+15	43.02.05	Manipulation (individuals)	
+20	43.02.07	Deception	
+47	43.02.09	Long horizon planning	
+48	43.02.10	Development of AI systems from scratch	
+87	43.02.10	Adapting other AI systems for its usecases	
+88	43.02.11	Long-term misaligned goals	
+3	43.02.11	Power seeking	
+89	43.02.11	Resists malicious users to access capabilities	
+111	43.02.11	Shutdown resistance	
+91	43.02.11	Collusion with other agents	
+75	45.02.13	Resource acquisition	
+3	45.02.13	Power seeking	
+85	45.02.13	Self-awareness	
+92	45.02.13	Self-replication	
+93	45.02.13	Seeking control over oneself	
+0	46.03.02	NOT CODED	
+94	47.02.14	AI takes initiative	
+95	47.02.14	Operate independently from humans	
+96	47.02.14	Actively work towards optimal solutions	
+97	47.02.15	Emergent behavior	Also includes 'use their own strategies' and 'adapt' risks
+20	47.02.15	Deception	
+3	47.02.15	Power seeking	
+92	47.02.15	Self-replication	
+98	47.02.15	Self-exfiltration 	
+101	53.01.02	Specification gaming	
+197	53.01.03	Reward model overoptimization	
+198	53.01.04	Instrumental convergence	
+3	53.02.03	Power seeking	
+99	53.02.04	AI systems improve AI systems 	Could it be called self-improvement
+92	53.02.05	Self-replication	
+100	53.02.06	Resource acquisition (anonomous)	
+20	53.02.07	Deception	
+202	53.03.01	Misalignment (superintelligence)	
+3	53.03.01	Power seeking	
+199	53.03.03	Extreme suffering risks	
+114	53.03.03	Misalignment	
+37	54.01.05	Cyberoffensive capabilities	
+38	54.01.05	Detect vulnerabilities	
+39	54.01.05	Exploit vulnerabilities	
+101	54.03.01	Specification gaming	
+3	54.03.02	Power seeking	
+75	54.03.02	Resource acquisition	
+102	54.03.02	Development of harmful instrumental goals	
+103	54.03.02	Self-preservation	
+104	54.03.02	Prevent goal modification	
+105	54.03.02	Block adversaries	
+31	54.03.03	Alignment faking	
+4	55.05.01	Goal misalignment	
+106	55.05.01	Value misalignment	
+4	55.05.02	Goal misalignment	
+107	55.05.02	Delegation of important decision making	
+108	56.16.00	Independently (without oversight) achieve goals	
+109	56.16.00	Harm to human interest	
+110	56.16.00	Correction evasion	
+90	56.16.00	Shutdown evasion	
+90	56.19.02	Shutdown evasion	Risk subcategory is the excerpt itself
+32	56.19.02	Oversight evasion	
+92	56.19.02	Self-replication	
+55	56.19.02	Self-exfiltration (code)	
+112	56.19.03	Cooperation with another AI systems	
+51	56.19.04	Situational awareness	
+113	56.19.05	Self-improvement	
+114	61.01.01	Misalignment	
+26	61.01.01	Loss of control	
+116	61.01.01	Rogue AI	
+117	61.02.01	Job displacement	
+118	61.02.01	Economic disruptions	
+119	61.02.01	Social inequality	
+120	61.02.04	Influence on social behavior using advertisement	
+121	61.02.10	Societal disruption	
+122	61.02.10	AI replaces jobs	
+31	61.02.18	Alignment faking	
+123	61.02.21	AI outcompetes human decision making	Leads to
+124	61.02.21	Conflicts over resources	
+125	61.02.21	Conflicts over control	
+106	61.02.30	Value misalignment	
+3	61.02.36	Power seeking	
+126	61.02.36	Control seeking	
+127	61.02.39	Influence on personal decision making	
+128	61.02.43	Surveillance	
+129	62.16.04	Bias towards AI content	
+130	62.16.04	Discrimination against human content	
+131	62.18.06	Encoded reasoning / Steganography	
+101	62.22.01	Specification gaming	
+69	62.22.02	Reward tampering	
+132	62.22.02	Measurement tampering	
+101	62.22.03	Specification gaming	
+69	62.22.03	Reward tampering	
+33	62.22.03	Sycophany	
+133	62.22.03	Specification gaming generalizing to reward tampering	
+68	62.22.04	Goal misgeneralization	
+20	62.23.01	Deception	
+81	62.23.01	Misjudgment	
+20	62.23.02	Deception	
+134	62.23.02	Cheating	
+135	62.23.02	Bluffing	
+20	62.23.04	Deception	
+136	62.23.04	Deception leading to unauthorized actions	
+137	62.24.02	Strategic underperformance / Sandbagging	
+137	62.24.02a	Strategic underperformance / Sandbagging	
+20	62.24.02a	Deception	
+14	62.24.02a	Manipulation (systems)	
+58	62.25.00	Self-proliferation	
+53	62.25.00	Self-exfiltration (weights)	
+98	62.25.00	Self-exfiltration 	
+75	62.25.00	Resource acquisition	
+38	62.25.00	Detect vulnerabilities	
+39	62.25.00	Exploit vulnerabilities	
+37	62.25.00	Cyberoffensive capabilities	
+23	62.25.00	Persuasion	
+35	62.26.00	Disinformation	
+23	62.26.00	Persuasion	
+138	62.28.02	Unintended outbound communication 	
+33	62.34.02	Sycophany	
+139	63.02.01	Social dilemmas	
+140	63.02.01	Overcome technical, legal, social barriers for the individuals selfish incentives	
+141	63.03.00	Collusion 	
+91	63.03.01	Collusion with other agents	
+131	63.03.02	Encoded reasoning / Steganography	
+142	63.03.02	Encoded reasoning / Steganography (text compression)	
+143	63.03.02	Encoded reasoning / Steganography (novel means of communication using custom language)	
+20	63.04.03	Deception	
+144	63.04.03	Manipulation (other AI agents)	
+145	63.04.03	Misinformation as a form of deception	
+146	63.06.03	Co-adaptation	Should be filtered because of multi-agent environment
+147	63.06.03	Skill acqusition	Should be filtered because of multi-agent environment
+148	63.06.03	Developing novel AI agents with more sophisticated strategies	Should be filtered because of multi-agent environment
+149	63.08.02	Credible threat creation	
+150	63.08.02	Extortion	
+151	63.08.02	Brinkmanship	
+152	63.10.02	Multiple agents overcoming safeguards	To filter
+153	63.10.03	Automated social engineering	
+131	63.10.06	 Encoded reasoning / Steganography	Steganography should also be filtered
+154	63.10.06	Illusory attacks	To filter
+155	63.10.06	Another agent data training data poisoning	To filter
+15	67.04.04	Manipulation (individuals)	
+39	67.04.04	Exploit vulnerabilities	
+37	67.04.04	Cyberoffensive capabilities	
+156	67.04.04	Financial resources seeking	
+157	67.04.04	Computing resources seeking	
+158	67.04.04	Access to critical infrastructure	
+159	67.04.04	Autonomous cyber-attacks	
+111	72.02.02	Shutdown resistance	
+75	72.02.02	Resource acquisition	
+52	72.02.02	Oversight evasion (human)	
+92	72.02.02	Self-replication	
+160	72.02.02	Obscuring activities of AI 	
+3	72.02.02	Power seeking	
+126	72.02.02	Control seeking	
+161	72.02.02	Develop misaligned instrumental goals	
+162	72.05.01	Autonomous goal achieving capability	
+98	72.05.02	Self-exfiltration 	
+92	72.05.02	Self-replication	
+75	72.05.02	Resource acquisition	
+163	72.05.02	Adjust replication strategies for environmental conditions and resource constraints	
+164	72.05.02	Financial resources acquisition	
+165	72.05.04	Covert pursuit of misaligned goals	
+166	72.05.04	Objectives concealment	
+167	72.05.04	Capability concealment	Sandbagging ?
+38	72.05.04	Detect vulnerabilities	
+168	72.05.04	Covert execution of multi-step plans	
+54	72.05.04	Oversight evasion (systems)	
+169	72.05.06	Predict behaviors of other intelligent agents	
+170	72.05.06	Predict behaviors of humans	
+20	72.05.07	Deception	
+131	72.05.08	Encoded reasoning / Steganography	
+23	72.05.09	Persuasion	
+37	72.05.10	Cyberoffensive capabilities	
+171	72.05.11	CBRNE weaponry development	
+46	72.05.11	Weapons acquisition	
+172	72.05.12	General R&D capabilities	
+173	72.05.13	Multi-agent collaboration capabilities	Filter
+20	72.06.01	Deception	
+174	72.06.01	Covert vulnerability exploitation	
+175	72.06.01	Vulnerability concealment	
+103	72.06.02	Self-preservation	
+111	72.06.02	Shutdown resistance	
+176	72.06.02	Establishment of backup systems	
+177	72.06.02	Self-preservation defensive measures	
+178	72.06.02	Resource seeking	
+179	72.06.03	Goal expansion	
+180	72.06.03	Autonomy expansion	
+181	72.06.03	Decision-making space expansion	
+182	72.06.03	Goals reinterpretation 	
+183	72.06.03	Pursuit of undesirable goals	
+184	72.06.03	Propensity to spread values	
+185	72.06.03	Seeking influence over environment	
+186	72.06.03	Seeking influence over other entities	
+75	72.06.04	Resource acquisition	
+187	72.06.04	Resource acquisition (computational)	
+188	72.06.04	Resource acquisition (data)	
+189	72.06.04	Resource acquisition (economic)	
+190	72.06.04	Resource acquisition (physical)	
+191	72.06.04	Resource limiting evasion	
+54	72.06.06	Oversight evasion (systems)	
+52	72.06.06	Oversight evasion (human)	
+192	72.06.06	Learning and predicting audit processes 	
+31	72.06.06	Alignment faking	
+38	72.06.06	Detect vulnerabilities	
+193	72.06.07	Tool seeking	Expand capability using external tools
+194	72.06.07	Innovative tool combination / usage	
+195	73.01.03	Goal directedness	
+20	73.01.03	Deception	
+103	73.01.03	Self-preservation	
+3	73.01.03	Power seeking	
+196	73.01.03	Immoral reasoning	
+91	73.02.03	Collusion with other agents	Filter
+131	73.02.03	Encoded reasoning / Steganography	
