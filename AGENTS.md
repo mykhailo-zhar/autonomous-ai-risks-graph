@@ -15,6 +15,8 @@ One row is one mention of one risk in one publication. The same `RISK_ID` repeat
 
 The TSV is the source of truth. Derived tables and the webpage read from it and must not replace it. Leave the file unchanged unless asked to edit it.
 
+Process the table with Polars DataFrames. Load the TSV into a frame and do the checks with frame operations.
+
 ## Graph and search
 
 Build this only when asked. The data format is static JSON with lookup maps (see Static data). Do not pick a web stack or graph library before then.
@@ -41,7 +43,7 @@ The TSV stays the source. The JSON is a derived file.
 
 ## Anomaly checks
 
-When the table is processed, report issues and leave the TSV unchanged unless asked to edit it. Taxonomy merges, renames, and spelling corrections are user decisions.
+When the table is processed, report issues and leave the TSV unchanged unless asked to edit it. Taxonomy merges, renames, and spelling corrections are user decisions. `preprocess.ipynb` prints this report and writes no files.
 
 Report:
 
