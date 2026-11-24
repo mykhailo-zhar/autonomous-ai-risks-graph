@@ -17,13 +17,27 @@ The TSV is the source of truth. Derived tables and the webpage read from it and 
 
 ## Graph and search
 
-Build this only when asked. Do not pick a web stack or graph library before then.
+Build this only when asked. The data format is static JSON with lookup maps (see Static data). Do not pick a web stack or graph library before then.
 
 - A node is one distinct `RISK_ID`.
 - A publication (`ev_id`) that mentions two or more risks is an edge among those risks, identified by that publication id. A publication that mentions one risk highlights that node and creates no edge.
 - Keep the relation as publication → set of risk ids. Pairwise edges for a multi-risk publication wait until the visualization is built.
 - Risk search matches `RISK_ID` or the risk label. Highlight that node, the publications that mention it, and the other risks those publications connect.
 - Publication search matches `ev_id` exactly. Highlight every risk that publication mentions and the edge it forms.
+
+## Static data
+
+Chosen approach, to build only when asked. A build step reads the TSV and writes static JSON. The page loads that JSON and looks records up by key. There is no database server.
+
+The JSON holds:
+
+- `risks` — one record per `RISK_ID` (id and label)
+- `publications` — one record per `ev_id`, with the set of `RISK_ID`s it mentions
+- `mentions` — the original rows, including `Comment`
+- `byRiskId` — `RISK_ID` to that risk, the publications that mention it, and the other risks those publications connect
+- `byEvId` — `ev_id` to that publication and every risk it mentions
+
+The TSV stays the source. The JSON is a derived file.
 
 ## Anomaly checks
 
