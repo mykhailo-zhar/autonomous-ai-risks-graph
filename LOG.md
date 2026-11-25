@@ -80,3 +80,39 @@ Each filter list starts with All. Choosing it selects every publication, or ever
 ## 2026-11-24 15:46
 
 Added a Hide evidence ids button. It removes the evidence-id labels from the edges and leaves the edges in place. The button then reads Show evidence ids. Hovering an edge still shows its id.
+
+## 2026-11-25 11:19
+
+Rewrote `README.md` with MIT and CC BY 4.0 shields, a short description of the graph, the three changes to the MIT AI Risk Repository data, and the CC BY attribution. The derived tables and JSON stay under CC BY 4.0. The code stays MIT.
+
+## 2026-11-25 11:27
+
+The graph now has three node types. Publications are green triangles labeled with the id, title, evidence-id count, and risk count. Evidence passages are purple squares labeled with the `ev_id` and the risk count. Risks stay blue circles sized by `number_of_associated_records`, and the label adds the publication count. A green edge links each publication to its evidence. The gray edge links each evidence node to its risks and is still labeled with the `ev_id`. The old risk-to-risk edges are gone.
+
+## 2026-11-25 11:34
+
+Moved the counts off the node labels and into the hover title. Publication and evidence nodes are sized by their risk counts, each on its own scale from 8 to 36. Risk circles stay sized by `number_of_associated_records`.
+
+## 2026-11-25 11:49
+
+Removed the Hide evidence ids button and the toggle that blanked evidence-id edge labels. Those labels always show.
+
+## 2026-11-25 11:51
+
+Moved the publications and evidence filters into a right-hand panel. The graph fills the remaining space on the left.
+
+## 2026-11-25 11:55
+
+Kept the filter panel in a full-height column on the right. The stylesheet link now includes a version query so the browser loads this layout instead of the previous stacked one.
+
+## 2026-11-25 11:59
+
+Added a search box above the publications list and another above the evidence list. Typing hides rows that do not match. The graph still changes only when a row is selected.
+
+## 2026-11-25 12:01
+
+Added a search box and a multi-select for risks. The option text is the risk id and label. A selection keeps those risks, the evidence passages that mention them, and the publications of those passages. A publication or evidence selection narrows the risk list to the risks on the remaining passages.
+
+## 2026-11-25 12:05
+
+`extract.ipynb` leaves `RISK_ID` 0 and the label `NOT CODED` out of `risk/mentions.csv`. Three rows were dropped: `22.04.00`, `34.03.00`, and `46.03.02`. The source TSVs are unchanged. Rebuilt the JSON from the new mentions: 348 mention rows and 201 risks.

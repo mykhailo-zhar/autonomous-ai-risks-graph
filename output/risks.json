@@ -439,23 +439,6 @@
     ]
   },
   {
-    "risk_id": 0,
-    "label": "NOT CODED",
-    "number_of_associated_records": 3,
-    "number_of_associated_publications": 3,
-    "publication_ids": [
-      22,
-      34,
-      46
-    ],
-    "number_of_associated_ev_ids": 3,
-    "ev_ids": [
-      "22.04.00",
-      "34.03.00",
-      "46.03.02"
-    ]
-  },
-  {
     "risk_id": 27,
     "label": "Proxy gaming",
     "number_of_associated_records": 2,

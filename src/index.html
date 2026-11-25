@@ -1,26 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autonomous AI risks</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
-</head>
-<body>
-  <header>
-    <label>
-      Publications
-      <select id="publications" multiple></select>
-    </label>
-    <label>
-      Evidence ids
-      <select id="evidence" multiple></select>
-    </label>
-    <p id="status"></p>
-    <button id="toggle-evidence-labels" type="button">Hide evidence ids</button>
-  </header>
-  <div id="graph"></div>
-  <script src="graph.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Autonomous AI risks</title>
+    <link rel="stylesheet" href="style.css?v=3" />
+    <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  </head>
+  <body>
+    <div id="graph"></div>
+    <aside>
+      <label>
+        Publications
+        <input id="publication-search" type="search" placeholder="Search" autocomplete="off">
+        <select id="publications" multiple></select>
+      </label>
+      <label>
+        Evidence ids
+        <input id="evidence-search" type="search" placeholder="Search" autocomplete="off">
+        <select id="evidence" multiple></select>
+      </label>
+      <label>
+        Risks
+        <input id="risk-search" type="search" placeholder="Search" autocomplete="off">
+        <select id="risks" multiple></select>
+      </label>
+      <p id="status"></p>
+    </aside>
+    <script src="graph.js?v=2"></script>
+  </body>
 </html>
