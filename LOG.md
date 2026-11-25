@@ -80,3 +80,7 @@ Each filter list starts with All. Choosing it selects every publication, or ever
 ## 2026-11-24 15:46
 
 Added a Hide evidence ids button. It removes the evidence-id labels from the edges and leaves the edges in place. The button then reads Show evidence ids. Hovering an edge still shows its id.
+
+## 2026-11-25 11:19
+
+Rewrote `README.md` with MIT and CC BY 4.0 shields, a short description of the graph, the three changes to the MIT AI Risk Repository data, and the CC BY attribution. The derived tables and JSON stay under CC BY 4.0. The code stays MIT.
