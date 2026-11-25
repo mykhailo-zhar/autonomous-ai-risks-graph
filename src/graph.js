@@ -1,7 +1,9 @@
 const publicationsSelect = document.querySelector("#publications");
 const evidenceSelect = document.querySelector("#evidence");
+const risksSelect = document.querySelector("#risks");
 const publicationSearch = document.querySelector("#publication-search");
 const evidenceSearch = document.querySelector("#evidence-search");
+const riskSearch = document.querySelector("#risk-search");
 const status = document.querySelector("#status");
 
 const ALL = "";
@@ -76,6 +78,35 @@ function fillEvidenceOptions(evidence, publicationIds) {
   filterOptions(evidenceSelect, evidenceSearch.value);
 }
 
+function fillRiskOptions(risks, evidence, publicationIds, evidenceIds) {
+  const allowed = new Set();
+  if (!publicationIds.size && !evidenceIds.size) {
+    for (const risk of risks) allowed.add(String(risk.risk_id));
+  } else {
+    for (const item of evidence) {
+      if (publicationIds.size && !publicationIds.has(String(item.publication_id)))
+        continue;
+      if (evidenceIds.size && !evidenceIds.has(item.ev_id)) continue;
+      for (const riskId of item.risks) allowed.add(String(riskId));
+    }
+  }
+  const previous = new Set(selected(risksSelect));
+  const hadAll = previous.has(ALL);
+  risksSelect.replaceChildren();
+  addAllOption(risksSelect);
+  for (const risk of risks) {
+    const id = String(risk.risk_id);
+    if (!allowed.has(id)) continue;
+    const option = document.createElement("option");
+    option.value = id;
+    option.textContent = `${risk.risk_id}. ${risk.label}`;
+    option.selected = hadAll || previous.has(id);
+    risksSelect.append(option);
+  }
+  syncAllOption(risksSelect, false);
+  filterOptions(risksSelect, riskSearch.value);
+}
+
 function countLabelInline(count, singular, plural) {
   return `(${count === 1 ? singular : plural}: ${count})`;
 }
@@ -87,10 +118,16 @@ function countLabel(count, singular, plural) {
 function draw(risks, evidence, publications) {
   const publicationIds = activeValues(publicationsSelect);
   const evidenceIds = activeValues(evidenceSelect);
+  const riskFilter = activeValues(risksSelect);
   const visibleEvidence = evidence.filter((item) => {
     if (publicationIds.size && !publicationIds.has(String(item.publication_id)))
       return false;
     if (evidenceIds.size && !evidenceIds.has(item.ev_id)) return false;
+    if (
+      riskFilter.size &&
+      !item.risks.some((riskId) => riskFilter.has(String(riskId)))
+    )
+      return false;
     return true;
   });
   const visiblePublicationIds = new Set(
@@ -99,17 +136,24 @@ function draw(risks, evidence, publications) {
   const visiblePublications = publications.filter((publication) => {
     const id = String(publication.publication_id);
     if (publicationIds.size && !publicationIds.has(id)) return false;
-    if (evidenceIds.size && !visiblePublicationIds.has(id)) return false;
+    if (
+      (evidenceIds.size || riskFilter.size) &&
+      !visiblePublicationIds.has(id)
+    )
+      return false;
     return true;
   });
 
   const riskById = new Map(risks.map((risk) => [risk.risk_id, risk]));
   const riskIds = new Set();
-  if (!publicationIds.size && !evidenceIds.size) {
+  if (!publicationIds.size && !evidenceIds.size && !riskFilter.size) {
     for (const risk of risks) riskIds.add(risk.risk_id);
   } else {
     for (const item of visibleEvidence) {
-      for (const riskId of item.risks) riskIds.add(riskId);
+      for (const riskId of item.risks) {
+        if (riskFilter.size && !riskFilter.has(String(riskId))) continue;
+        riskIds.add(riskId);
+      }
     }
   }
 
@@ -178,6 +222,7 @@ function draw(risks, evidence, publications) {
       color: { color: "#16a34a", highlight: "#15803d" },
     });
     for (const riskId of item.risks) {
+      if (!riskIds.has(riskId)) continue;
       edges.push({
         id: `ev-risk:${item.ev_id}:${riskId}`,
         from: `ev:${item.ev_id}`,
@@ -211,6 +256,7 @@ async function main() {
     publicationsSelect.append(option);
   }
   fillEvidenceOptions(evidence, new Set());
+  fillRiskOptions(risks, evidence, new Set(), new Set());
 
   const graph = new vis.Network(
     document.querySelector("#graph"),
@@ -247,16 +293,36 @@ async function main() {
 
   let publicationsHadAll = false;
   let evidenceHadAll = false;
+  let risksHadAll = false;
   publicationsSelect.addEventListener("change", () => {
     syncAllOption(publicationsSelect, publicationsHadAll);
     publicationsHadAll = selected(publicationsSelect).includes(ALL);
     fillEvidenceOptions(evidence, activeValues(publicationsSelect));
     evidenceHadAll = selected(evidenceSelect).includes(ALL);
+    fillRiskOptions(
+      risks,
+      evidence,
+      activeValues(publicationsSelect),
+      activeValues(evidenceSelect),
+    );
+    risksHadAll = selected(risksSelect).includes(ALL);
     show();
   });
   evidenceSelect.addEventListener("change", () => {
     syncAllOption(evidenceSelect, evidenceHadAll);
     evidenceHadAll = selected(evidenceSelect).includes(ALL);
+    fillRiskOptions(
+      risks,
+      evidence,
+      activeValues(publicationsSelect),
+      activeValues(evidenceSelect),
+    );
+    risksHadAll = selected(risksSelect).includes(ALL);
+    show();
+  });
+  risksSelect.addEventListener("change", () => {
+    syncAllOption(risksSelect, risksHadAll);
+    risksHadAll = selected(risksSelect).includes(ALL);
     show();
   });
   publicationSearch.addEventListener("input", () => {
@@ -264,6 +330,9 @@ async function main() {
   });
   evidenceSearch.addEventListener("input", () => {
     filterOptions(evidenceSelect, evidenceSearch.value);
+  });
+  riskSearch.addEventListener("input", () => {
+    filterOptions(risksSelect, riskSearch.value);
   });
   show();
 }

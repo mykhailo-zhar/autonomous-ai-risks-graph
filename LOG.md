@@ -108,3 +108,7 @@ Kept the filter panel in a full-height column on the right. The stylesheet link 
 ## 2026-11-25 11:59
 
 Added a search box above the publications list and another above the evidence list. Typing hides rows that do not match. The graph still changes only when a row is selected.
+
+## 2026-11-25 12:01
+
+Added a search box and a multi-select for risks. The option text is the risk id and label. A selection keeps those risks, the evidence passages that mention them, and the publications of those passages. A publication or evidence selection narrows the risk list to the risks on the remaining passages.
