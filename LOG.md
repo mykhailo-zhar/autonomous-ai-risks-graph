@@ -92,3 +92,15 @@ The graph now has three node types. Publications are green triangles labeled wit
 ## 2026-11-25 11:34
 
 Moved the counts off the node labels and into the hover title. Publication and evidence nodes are sized by their risk counts, each on its own scale from 8 to 36. Risk circles stay sized by `number_of_associated_records`.
+
+## 2026-11-25 11:49
+
+Removed the Hide evidence ids button and the toggle that blanked evidence-id edge labels. Those labels always show.
+
+## 2026-11-25 11:51
+
+Moved the publications and evidence filters into a right-hand panel. The graph fills the remaining space on the left.
+
+## 2026-11-25 11:55
+
+Kept the filter panel in a full-height column on the right. The stylesheet link now includes a version query so the browser loads this layout instead of the previous stacked one.

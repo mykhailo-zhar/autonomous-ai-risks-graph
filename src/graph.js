@@ -1,8 +1,6 @@
 const publicationsSelect = document.querySelector("#publications");
 const evidenceSelect = document.querySelector("#evidence");
 const status = document.querySelector("#status");
-const toggleEvidenceLabels = document.querySelector("#toggle-evidence-labels");
-let showEvidenceIds = true;
 
 const ALL = "";
 
@@ -172,7 +170,6 @@ function draw(risks, evidence, publications) {
         id: `ev-risk:${item.ev_id}:${riskId}`,
         from: `ev:${item.ev_id}`,
         to: `risk:${riskId}`,
-        label: showEvidenceIds ? item.ev_id : "",
         title: item.ev_id,
       });
     }
@@ -248,13 +245,6 @@ async function main() {
   evidenceSelect.addEventListener("change", () => {
     syncAllOption(evidenceSelect, evidenceHadAll);
     evidenceHadAll = selected(evidenceSelect).includes(ALL);
-    show();
-  });
-  toggleEvidenceLabels.addEventListener("click", () => {
-    showEvidenceIds = !showEvidenceIds;
-    toggleEvidenceLabels.textContent = showEvidenceIds
-      ? "Hide evidence ids"
-      : "Show evidence ids";
     show();
   });
   show();
