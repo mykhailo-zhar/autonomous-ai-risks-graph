@@ -84,3 +84,11 @@ Added a Hide evidence ids button. It removes the evidence-id labels from the edg
 ## 2026-11-25 11:19
 
 Rewrote `README.md` with MIT and CC BY 4.0 shields, a short description of the graph, the three changes to the MIT AI Risk Repository data, and the CC BY attribution. The derived tables and JSON stay under CC BY 4.0. The code stays MIT.
+
+## 2026-11-25 11:27
+
+The graph now has three node types. Publications are green triangles labeled with the id, title, evidence-id count, and risk count. Evidence passages are purple squares labeled with the `ev_id` and the risk count. Risks stay blue circles sized by `number_of_associated_records`, and the label adds the publication count. A green edge links each publication to its evidence. The gray edge links each evidence node to its risks and is still labeled with the `ev_id`. The old risk-to-risk edges are gone.
+
+## 2026-11-25 11:34
+
+Moved the counts off the node labels and into the hover title. Publication and evidence nodes are sized by their risk counts, each on its own scale from 8 to 36. Risk circles stay sized by `number_of_associated_records`.
