@@ -112,3 +112,7 @@ Added a search box above the publications list and another above the evidence li
 ## 2026-11-25 12:01
 
 Added a search box and a multi-select for risks. The option text is the risk id and label. A selection keeps those risks, the evidence passages that mention them, and the publications of those passages. A publication or evidence selection narrows the risk list to the risks on the remaining passages.
+
+## 2026-11-25 12:05
+
+`extract.ipynb` leaves `RISK_ID` 0 and the label `NOT CODED` out of `risk/mentions.csv`. Three rows were dropped: `22.04.00`, `34.03.00`, and `46.03.02`. The source TSVs are unchanged. Rebuilt the JSON from the new mentions: 348 mention rows and 201 risks.
