@@ -1,5 +1,7 @@
 const publicationsSelect = document.querySelector("#publications");
 const evidenceSelect = document.querySelector("#evidence");
+const publicationSearch = document.querySelector("#publication-search");
+const evidenceSearch = document.querySelector("#evidence-search");
 const status = document.querySelector("#status");
 
 const ALL = "";
@@ -47,6 +49,15 @@ function activeValues(select) {
   return new Set(selected(select).filter((value) => value !== ALL));
 }
 
+function filterOptions(select, query) {
+  const needle = query.trim().toLowerCase();
+  for (const option of select.options) {
+    if (option.value === ALL) continue;
+    option.hidden =
+      needle !== "" && !option.textContent.toLowerCase().includes(needle);
+  }
+}
+
 function fillEvidenceOptions(evidence, publicationIds) {
   const previous = new Set(selected(evidenceSelect));
   const hadAll = previous.has(ALL);
@@ -62,6 +73,7 @@ function fillEvidenceOptions(evidence, publicationIds) {
     evidenceSelect.append(option);
   }
   syncAllOption(evidenceSelect, false);
+  filterOptions(evidenceSelect, evidenceSearch.value);
 }
 
 function countLabelInline(count, singular, plural) {
@@ -246,6 +258,12 @@ async function main() {
     syncAllOption(evidenceSelect, evidenceHadAll);
     evidenceHadAll = selected(evidenceSelect).includes(ALL);
     show();
+  });
+  publicationSearch.addEventListener("input", () => {
+    filterOptions(publicationsSelect, publicationSearch.value);
+  });
+  evidenceSearch.addEventListener("input", () => {
+    filterOptions(evidenceSelect, evidenceSearch.value);
   });
   show();
 }

@@ -33,5 +33,11 @@ label {
   gap: 0.25rem;
   font-size: 0.85rem;
 }
+input[type="search"] {
+  font: inherit;
+  padding: 0.25rem 0.4rem;
+  border: 1px solid #d6d3d1;
+  border-radius: 0.25rem;
+}
 select { height: 12rem; }
 #status { color: #57534e; margin: 0; }

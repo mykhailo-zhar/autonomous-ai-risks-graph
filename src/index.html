@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Autonomous AI risks</title>
-    <link rel="stylesheet" href="style.css?v=2" />
+    <link rel="stylesheet" href="style.css?v=3" />
     <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
   </head>
   <body>
@@ -12,10 +12,12 @@
     <aside>
       <label>
         Publications
+        <input id="publication-search" type="search" placeholder="Search" autocomplete="off">
         <select id="publications" multiple></select>
       </label>
       <label>
         Evidence ids
+        <input id="evidence-search" type="search" placeholder="Search" autocomplete="off">
         <select id="evidence" multiple></select>
       </label>
       <p id="status"></p>

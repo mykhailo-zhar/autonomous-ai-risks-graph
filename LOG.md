@@ -104,3 +104,7 @@ Moved the publications and evidence filters into a right-hand panel. The graph f
 ## 2026-11-25 11:55
 
 Kept the filter panel in a full-height column on the right. The stylesheet link now includes a version query so the browser loads this layout instead of the previous stacked one.
+
+## 2026-11-25 11:59
+
+Added a search box above the publications list and another above the evidence list. Typing hides rows that do not match. The graph still changes only when a row is selected.
